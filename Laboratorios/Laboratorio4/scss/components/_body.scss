@@ -1,0 +1,17 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{  
+    background-image: url("https://picsum.photos/id/1006/3000/2000");
+ 
+}
+
+.container{
+    @include center();
+    
+    text-align: center;
+    font-size: 20px;
+}
