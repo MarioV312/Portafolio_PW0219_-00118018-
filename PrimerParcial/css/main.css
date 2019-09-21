@@ -17,31 +17,31 @@ body {
     text-align: center;
     font-weight: 400;
 }
-
+/*Configurando el header*/
 .header {
     display: flex;
     justify-content: space-between
 }
-
+/*Escondiendo h1 del header si falla la imagen */
 .src-only {
     display: none;
 }
-
+/*Escondiendo opciones de navegacion*/
 .hide-mobile {
     display: none;
 }
-
+/*Configurando atributos de los parrafos*/
 p{
     font-size: 0.75em;
     padding: 1rem;
     line-height: 25px;
 }
-
+/*Configurando tamaño y margen de la imegen del logo*/
 .logo {
     width: 90px;
     margin: 1em;
 }
-
+/*Atributos del icono de navegacion*/
 .options {
     color: inherit;
     text-decoration: none;
@@ -55,6 +55,7 @@ p{
     align-items: flex-start;
 
 }
+/*Incrementando tamaño del icono de navegacion*/
 .options i:last-child {
     font-size: 1.6rem;
 }
@@ -63,14 +64,14 @@ p{
 .big-hero img {
     width: 150px;
 }
-
+/*Atributos del h2 en big hero (nombre)*/
 .big-hero h2 {
     font-size: 1.875em;
     font-weight: 700;
     letter-spacing: 0.002em;
     margin-top: 1em ;
 }
-
+/*Atributos del parrafo en big hero (eslogan)*/
 .big-hero p {
     font-size: 0.7em;;
     color: #D7DEE6;
@@ -87,7 +88,7 @@ p{
     justify-content: center
 
 }
-
+/*Atributos de los iconos de redes sociales*/
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
@@ -95,33 +96,34 @@ p{
     text-align: center;
 }
 
-
+/*Configurando colores del area verde*/
 .green-area {
     background-color: #0AC693; 
 }
 
-
+/*Dando margenes y padding a los post*/
 .post {
     padding: 1em;
     margin-bottom: -2px;
 }
+/*Configurando atributos del titulo del area verde*/
 .post h2 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.125em;
     margin: 1em;
 }
-
+/*Declarando el estilo de la lista de post*/
 .post ul {
     list-style: none;
 }
-
+/*Configurando area que utilizaran los post*/
 .post ul li {
     min-height: 300px;
     max-width: 350px;
     margin: 2rem auto;
 }
-
+/*Configurando texto a utilizar dentro de los post*/
 .post ul li article {
     overflow: hidden;
     border-radius: 10px;
@@ -129,13 +131,13 @@ p{
     text-align: left;
     padding-bottom: 2em;
 }
-
+/*Configurando tamaño de la imagen dentro del post*/
 .post article img{
     height: 150px;
     width: 100%;
     object-fit: cover;
 }
-
+/*Configurando texto del titulo dentro de los post*/
 .post article h3 {
     color: #0D5061;
     margin-top: 2em;
@@ -145,7 +147,7 @@ p{
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
+/*Configurando texto dentro de las ventanas de post*/
 .post article p {
     color:#112935;
     font-size: 0.75em;
@@ -158,18 +160,18 @@ p{
 .about{
     margin-top: 2em;
 }
-
+/*Configurando titulo "acerca de"*/
 .about h2 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.125em;
     margin: 2em;
 }
-
+/*Ajustando tamaño de la imagen en area about*/
 .bio-info img{
    width: 200px;
 }
-
+/*Configurando atributos del parrafo dentro de "acerca de"*/
 .bio-info p{
     font-size: 16px;
     padding: 2em;
@@ -177,7 +179,7 @@ p{
     line-height: 25px;
     letter-spacing: 2px;
 }
-
+/*Configurando area del formulario*/
 .contact {
     display: flex;
     flex-direction: column;
@@ -188,12 +190,12 @@ p{
 .contact * + * {
     margin-top: 1.5em;
 }
-
+/*Configurando display del formulario*/
 .contact-form {
     display: flex;
     flex-direction: column;
 }
-
+/*Configurando texto utilizado dentro del formulario*/
 .contact-form input, .contact-form textarea{
     padding: 1rem 2rem;
     border: none;
@@ -224,16 +226,16 @@ p{
 .black-decoration{
     background-image: url("../images/decoracion_oscura_small.svg");
 }
-
+/*Configurando colores en el footer*/
 footer{
     background-color: #0D5061;
     color:#D7DEE6;
 }
-
+/*Definiendo margenes de los iconos de redes sociales*/
 footer .social-links {
     margin: 0;
 }
-
+/*Definiendo atributos de las opciones de menu*/
 .menu {
     background-color: #112935;
     position: absolute;
@@ -243,18 +245,19 @@ footer .social-links {
     width: 100vw;
     height: calc(100vh - 60px);
 }
-
+/*Configurando el area del menu*/
 .menu {
     list-style: none;
     text-align: left;
     padding: 1em;
 }
+/*Configurando area de cada opcion dentro del menu*/
 .menu li {
     display: block;
     padding: 0.5em;
     margin-top: 5px;
 }
-
+/*Definiendo atributos del texto de las opciones del menu*/
 .menu li a {
     color: white;
     text-decoration: none;
@@ -266,11 +269,11 @@ footer .social-links {
 
 
     /*TRABAJO PERSONAL*/
-
+    /*Poniendole margenes el header*/
     .header{
         margin: 10px 20px 10px 20px;
     }
-
+    /*Coloreando menu al pasar el mouse sobre el*/
     #menu>li a:hover{
         color: red;
     }
@@ -278,32 +281,32 @@ footer .social-links {
    .about>.container{
         padding-bottom: 50px;
     }
-
+    /*Escondiendo las opciones de navegacion y la flecha de navegacion*/
     .hide-mobile{
         display: none;
     }
-
+    /*Mostrando el icono para abrir menu*/
     .hide-desktop{
         display: flex;
         font-size: 100px;
     }
-
+    /*Configurando el area verde de los post*/
     .post>ul{
         display: grid;
         grid-template-rows: auto;
         margin: 20px;
         justify-content: center;
     }
-
+    /*Creando padding al area del texto y formulario*/
     .about>.container{
         padding: 15px 80px 30px 80px;;
     }
-
+    /*Creando dos columnas para los iconos de redes sociales*/
     .big-hero>.container>.social-links {
         display: grid;
         grid-template-columns: 50% 50%;
     }
-
+    /*Centrando los iconos usando padding*/
     .big-hero>.container>.social-links>li:first-child{
         padding-left: 270px;
     }
@@ -316,7 +319,7 @@ footer .social-links {
         width: 250px;
         height: 250px;
     }
-
+    /*Aumentando tamaño del header (Tanto nombre como eslogan)*/
     .big-hero>.container>h2{
         font-size: 40px;
     }
@@ -324,25 +327,26 @@ footer .social-links {
     .big-hero>.container>p{
         font-size: 20px;
     }
-
+    /*Aumentando tamaño del titulo en el area de los post*/
     .green-area>.container>h2{
         font-size: 20px;
     }
-
+    /*Aumentando tamaño del titulo "acerca de"*/
     .about>.container>h2{
         font-size: 20px;
     }
-
+    /*Aumentando tamaño y haciendo negrita a las areas del
+    formulario*/
     label{
         font-size: 15px;
         font-weight: 700;
     }
-
+    /*Creando columnas para los iconos de redes sociales*/
     footer > .social-links{
         display: grid;
         grid-template-columns: 50% 50%;
     }
-
+    /*Centrando iconos*/
     footer>.social-links>li:last-child{
         padding-right: 270px;
     }
@@ -350,12 +354,11 @@ footer .social-links {
     footer>.social-links>li:first-child{
         padding-left: 270px;
     } 
-
-    /*TODO: FALTA CSS */
 } 
 
 @media only screen and (min-width: 1024px) {
 
+    /*Centrando los iconos de navegacion*/
     .big-hero>.container>.social-links>li:last-child{
         padding-right: 400px;
     }
@@ -363,19 +366,19 @@ footer .social-links {
     .big-hero>.container>.social-links>li:first-child{
         padding-left: 400px;
     } 
-
+    /*Creando margen para el header*/
     .header{
         margin: 10px 30px 10px 30px;
     }
-
+    /*Mostrando las opciones del menu*/
     .hide-mobile{
         display: block;
     }
-
+    /*Escondiendo el icono de navegacion y mostrando flecha de navegacion*/
     .hide-desktop{
         display: none;
     }
-
+    /*Atributos para mostrar menu de manera adecuada*/
     .menu{
         display: flex;
         position: static;
@@ -384,23 +387,23 @@ footer .social-links {
         margin-top: 1em;
         z-index: 20;
     }
-
+    /*Aumentando tamaño de las opciones de menu*/
     .menu li{
         font-size: 20px;
     }
-
+    /*Atribuyendo tamaño y color a flecha de navegacion*/
     .fas, .fa{
         font-size: 60px;
         color: #0AC693;
         margin-bottom: 100px;
     }
-
+    /*Creando columnas para los la informacion "acerca de"*/
     .about>.container{
         display: grid;
         justify-content: center;
         grid-template-columns: 50% 50%;
     }
-
+    /*Colocando adecuadamente el parrafo y formulario*/
     .about>.container>h2{
         grid-column: 1 / 3;
         text-align: center;
@@ -413,11 +416,11 @@ footer .social-links {
     .about>.container>.contact{
         grid-column: 2 / 3;
     }
-
+    /*Disminuyendo tamaño del boton "contactar"*/
     .contact>.contact-form>input:last-child{
         width: 200px;
     }
-
+    /*Configurando el area verde para los post*/
     .post ul{
         display: flex;
     }
@@ -426,7 +429,7 @@ footer .social-links {
         display: flex;
         padding: 30px;
     }
-
+    /*Centrando iconos de redes sociales*/
     footer>.social-links>li:last-child{
         padding-right: 350px;
     }
@@ -443,31 +446,31 @@ footer .social-links {
         margin: 0 auto;
         max-width: 1440px;
     }
-
+    /*Creando columnas para iconos de redes sociales*/
     .container>.social-links>li a{
         display:  grid;
         grid-template-rows: 50% 50%;
         margin: 15px 15px 30px 15px;
     }
-
+    /*Declarando margen de abajo para iconos*/
     .social-links>i:last-child::before{
         margin-bottom: 10rem;
     }
-
+    /*Centrando texto en big hero*/
     .big-hero>.social-links {
         text-align: center;
     }
-
+ 
     .big-hero > .container > .social-links {
         display: flex; 
     }
-
+    /*Creando columnas para parrafo y formulario*/
     .about>.container{
         display: grid;
         justify-content: center;
         grid-template-columns: 50% 50%;
     }
-
+    /*Colocando adecuadamente el parrafo y formulario*/
     .about>.container>h2{
         grid-column: 1 / 3;
         text-align: center;
@@ -480,24 +483,24 @@ footer .social-links {
     .about>.container>.contact{
         grid-column: 2 / 3;
     }
-
+    /*Configurando tamaño del boton contactar*/
     .contact>.contact-form>input:last-child{
         width: 200px;
     }
-
+    /*Configurando area verde para los post*/
     .post ul{
         display: flex;
     }
-
+    
     .post ul li{
         display: flex;
         padding: 30px;
     }
-
+    /*Escondiendo icono de navegacion*/
     .options{
         display: none;
     }
-
+    /*Atributos para mostrar menu de manera adecuada*/
     .menu{
         display: flex;
         position: static;
@@ -506,11 +509,11 @@ footer .social-links {
         margin-top: 1em;
         z-index: 20;
     }
-
+    /*Incrementando tamaño de iconos de red social*/
     .big-hero> a > i{
         font-size: 80px;      
     }
-
+    /*Configurando flecha de navegacion*/
     .fas, .fa{
         font-size: 60px;
         color: #0AC693;
