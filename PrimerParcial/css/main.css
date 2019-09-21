@@ -317,6 +317,27 @@ footer .social-links {
         height: 250px;
     }
 
+    .big-hero>.container>h2{
+        font-size: 40px;
+    }
+
+    .big-hero>.container>p{
+        font-size: 20px;
+    }
+
+    .green-area>.container>h2{
+        font-size: 20px;
+    }
+
+    .about>.container>h2{
+        font-size: 20px;
+    }
+
+    label{
+        font-size: 15px;
+        font-weight: 700;
+    }
+
     footer > .social-links{
         display: grid;
         grid-template-columns: 50% 50%;
@@ -335,7 +356,13 @@ footer .social-links {
 
 @media only screen and (min-width: 1024px) {
 
-       /*TODO: FALTA CSS */
+    .big-hero>.container>.social-links>li:last-child{
+        padding-right: 400px;
+    }
+
+    .big-hero>.container>.social-links>li:first-child{
+        padding-left: 400px;
+    } 
 
     .header{
         margin: 10px 30px 10px 30px;
@@ -356,6 +383,16 @@ footer .social-links {
         height: auto;
         margin-top: 1em;
         z-index: 20;
+    }
+
+    .menu li{
+        font-size: 20px;
+    }
+
+    .fas, .fa{
+        font-size: 60px;
+        color: #0AC693;
+        margin-bottom: 100px;
     }
 
     .about>.container{
@@ -390,11 +427,17 @@ footer .social-links {
         padding: 30px;
     }
 
+    footer>.social-links>li:last-child{
+        padding-right: 350px;
+    }
+
+    footer>.social-links>li:first-child{
+        padding-left: 350px;
+    } 
 }
 
 @media only screen and (min-width: 1440px) {
 
-    /*TODO: FALTA CSS */
     .container {
         width: 80%;
         margin: 0 auto;
@@ -413,6 +456,10 @@ footer .social-links {
 
     .big-hero>.social-links {
         text-align: center;
+    }
+
+    .big-hero > .container > .social-links {
+        display: flex; 
     }
 
     .about>.container{
@@ -461,8 +508,13 @@ footer .social-links {
     }
 
     .big-hero> a > i{
-        font-size: 80px;
-        
+        font-size: 80px;      
+    }
+
+    .fas, .fa{
+        font-size: 60px;
+        color: #0AC693;
+        margin-bottom: 100px;
     }
 
 }
