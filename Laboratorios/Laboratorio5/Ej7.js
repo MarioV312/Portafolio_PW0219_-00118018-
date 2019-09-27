@@ -15,7 +15,7 @@ var funcion = x => {
     for(i = 0; i = n; i++){
         sum = a + b;
         console.log(sum);
-        b = a;
+        a = b;
         aux = sum;
     }
 }
